@@ -93,7 +93,7 @@ It defines the name of the program with which the decoder is associated.
 +--------------------+--------------------------------------------------------------------+
 | **Default Value**  | n/a                                                                |
 +--------------------+--------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_    |
+| **Allowed values** | Any `sregex expression <regex.html#regex-os-regex-syntax>`_        |
 +--------------------+--------------------------------------------------------------------+
 
 Example:
@@ -142,7 +142,7 @@ An example is this regex that matches any numeral:
 +--------------------+--------------------------------------------------------------------+
 | **Default Value**  | n/a                                                                |
 +--------------------+--------------------------------------------------------------------+
-| **Allowed values** | Any `regex expression <regex.html#os-regex-or-regex-syntax>`_      |
+| **Allowed values** | Any `regex expression <regex.html#regex-os-regex-syntax>`_         |
 +--------------------+--------------------------------------------------------------------+
 
 The attribute below is optional, it allows to discard some of the content of the entry.
