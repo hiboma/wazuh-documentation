@@ -115,7 +115,7 @@ Any string to match against the log event.
 +--------------------+-----------------------------------------------------------------+
 | **Default Value**  | n/a                                                             |
 +--------------------+-----------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_ |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_    |
 +--------------------+-----------------------------------------------------------------+
 
 Example:
@@ -138,7 +138,7 @@ Any regex to match against the log event.
 +--------------------+---------------------------------------------------------------+
 | **Default Value**  | n/a                                                           |
 +--------------------+---------------------------------------------------------------+
-| **Allowed values** | Any `regex expression <regex.html#os-regex-or-regex-syntax>`_ |
+| **Allowed values** | Any `regex expression <regex.html#regex-os-regex-syntax>`_    |
 +--------------------+---------------------------------------------------------------+
 
 Example:
@@ -215,7 +215,7 @@ Any string that is decoded into the ``data`` field.
 +--------------------+-----------------------------------------------------------------+
 | **Default Value**  | n/a                                                             |
 +--------------------+-----------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_ |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_    |
 +--------------------+-----------------------------------------------------------------+
 
 extra_data
@@ -237,7 +237,7 @@ Any username (decoded as the username).
 +--------------------+------------------------------------------------------------------+
 | **Default Value**  | n/a                                                              |
 +--------------------+------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_  |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_     |
 +--------------------+------------------------------------------------------------------+
 
 system_name
@@ -248,7 +248,7 @@ Any string that is decoded into the ``system_name`` field.
 +--------------------+------------------------------------------------------------------+
 | **Default Value**  | n/a                                                              |
 +--------------------+------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_  |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_     |
 +--------------------+------------------------------------------------------------------+
 
 program_name
@@ -259,7 +259,7 @@ Program name is decoded from syslog process name.
 +--------------------+------------------------------------------------------------------+
 | **Default Value**  | n/a                                                              |
 +--------------------+------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_  |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_     |
 +--------------------+------------------------------------------------------------------+
 
 protocol
@@ -270,7 +270,7 @@ Any string that is decoded into the ``protocol`` field.
 +--------------------+------------------------------------------------------------------+
 | **Default Value**  | n/a                                                              |
 +--------------------+------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_  |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_     |
 +--------------------+------------------------------------------------------------------+
 
 hostname
@@ -281,7 +281,7 @@ Any hostname (decoded as the syslog hostname) or log file.
 +--------------------+------------------------------------------------------------------+
 | **Default Value**  | n/a                                                              |
 +--------------------+------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_  |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_     |
 +--------------------+------------------------------------------------------------------+
 
 time
@@ -314,7 +314,7 @@ Any ID (decoded as the ID).
 +--------------------+------------------------------------------------------------------+
 | **Default Value**  | n/a                                                              |
 +--------------------+------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_  |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_     |
 +--------------------+------------------------------------------------------------------+
 
 url
@@ -325,7 +325,7 @@ Any URL (decoded as the URL).
 +--------------------+------------------------------------------------------------------+
 | **Default Value**  | n/a                                                              |
 +--------------------+------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_  |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_     |
 +--------------------+------------------------------------------------------------------+
 
 location
@@ -338,7 +338,7 @@ The event extended location of the incoming event.
 +--------------------+------------------------------------------------------------------+
 | **Default Value**  | n/a                                                              |
 +--------------------+------------------------------------------------------------------+
-| **Allowed values** | Any `sregex expression <regex.html#os-match-or-sregex-syntax>`_  |
+| **Allowed values** | Any `sregex expression <regex.html#sregex-os-match-syntax>`_     |
 +--------------------+------------------------------------------------------------------+
 
 The location identifies the origin of the input. If the event comes from an agent, its name and registered IP (as it was added) is appended to the location.
